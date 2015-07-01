@@ -30,8 +30,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef CHULA_COMMON_H
-#define CHULA_COMMON_H
+#pragma once
 
 #if !defined(CHULA_H_INSIDE) && !defined (CHULA_COMPILATION)
 # error "Only <libchula/libchula.h> can be included directly."
@@ -55,5 +54,3 @@ typedef enum {
 } ret_t;
 
 typedef void (*chula_func_free_t) (void *);
-
-#endif /* CHULA_COMMON_H */

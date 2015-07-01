@@ -30,8 +30,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef CHULA_MACROS_H
-#define CHULA_MACROS_H
+#pragma once
 
 #if !defined(CHULA_H_INSIDE) && !defined (CHULA_COMPILATION)
 # error "Only <libchula/libchula.h> can be included directly."
@@ -282,5 +281,3 @@
 #ifndef MAX
 # define MAX(x,y) ((x>y) ? x : y)
 #endif
-
-#endif /* CHULA_MACROS_H */

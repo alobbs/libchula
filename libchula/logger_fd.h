@@ -30,8 +30,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef CHULA_LOGGER_FD_H
-#define CHULA_LOGGER_FD_H
+#pragma once
 
 #if !defined(CHULA_H_INSIDE) && !defined (CHULA_COMPILATION)
 # error "Only <libchula/libchula.h> can be included directly."
@@ -47,5 +46,3 @@ typedef struct {
 #define CHULA_LOG_FD(l) ((chula_log_fd_t *)(l))
 
 ret_t chula_log_fd_new (chula_log_fd_t **logger, int fd);
-
-#endif /* CHULA_LOGGER_FD_H */

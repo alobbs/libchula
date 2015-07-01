@@ -30,11 +30,8 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef CHULA_QA_H
-#define CHULA_QA_H
+#pragma once
 
 #define CHULA_QA_H_INSIDE
 #include <libchula-qa/mem_mgr.h>
 #undef CHULA_QA_H_INSIDE
-
-#endif /* CHULA_QA_H */

@@ -30,8 +30,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef CHULA_DEBUG_H
-#define CHULA_DEBUG_H
+#pragma once
 
 #if !defined(CHULA_H_INSIDE) && !defined (CHULA_COMPILATION)
 # error "Only <libchula/libchula.h> can be included directly."
@@ -47,5 +46,3 @@
         write (STDOUT_FILENO, __repr_tmp.buf, __repr_tmp.len);		  \
         chula_buffer_mrproper (&__repr_tmp);                          \
     } while(false)
-
-#endif /* CHULA_DEBUG_H */

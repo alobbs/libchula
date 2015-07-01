@@ -20,8 +20,7 @@
  * Still in the public domain.
  */
 
-#ifndef MD5_H
-#define MD5_H
+#pragma once
 
 #if !defined(CHULA_H_INSIDE) && !defined (CHULA_COMPILATION)
 # error "Only <libchula/libchula.h> can be included directly."
@@ -41,5 +40,3 @@ void MD5Init      (struct MD5Context *context);
 void MD5Update    (struct MD5Context *context, md5byte const *buf, unsigned len);
 void MD5Final     (unsigned char digest[16], struct MD5Context *context);
 void MD5Transform (uint32_t buf[4], uint32_t const in[16]);
-
-#endif /* !MD5_H */

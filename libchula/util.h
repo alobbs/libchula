@@ -30,8 +30,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef CHULA_UTIL_H
-#define CHULA_UTIL_H
+#pragma once
 
 #if !defined(CHULA_H_INSIDE) && !defined (CHULA_COMPILATION)
 # error "Only <libchula/libchula.h> can be included directly."
@@ -151,5 +150,3 @@ ret_t chula_wait_pid        (pid_t pid, int *retcode);
 ret_t chula_reset_signals   (void);
 ret_t chula_get_shell       (const char **shell, const char **binary);
 ret_t chula_tmp_dir_copy    (chula_buffer_t *buffer);
-
-#endif /* CHULA_UTIL_H */

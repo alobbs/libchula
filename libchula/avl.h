@@ -30,8 +30,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef CHULA_AVL_H
-#define CHULA_AVL_H
+#pragma once
 
 #if !defined(CHULA_H_INSIDE) && !defined (CHULA_COMPILATION)
 # error "Only <libchula/libchula.h> can be included directly."
@@ -78,6 +77,3 @@ ret_t chula_avl_while (chula_avl_generic_t       *avl,
                        void                      *param,
                        chula_buffer_t           **key,
                        void                     **value);
-
-
-#endif /* CHULA_AVL_H */

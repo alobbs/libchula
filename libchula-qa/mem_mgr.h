@@ -30,8 +30,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef CHULA_MEM_MGR_H
-#define CHULA_MEM_MGR_H
+#pragma once
 
 #if !defined(CHULA_QA_H_INSIDE) && !defined (CHULA_QA_COMPILATION)
 # error "Only <libchula-qa/libchula-qa.h> can be included directly."
@@ -103,5 +102,3 @@ ret_t chula_mem_mgr_thaw       (chula_mem_mgr_t *mgr);
         cmd;                                    \
         chula_mem_mgr_thaw (mgr);               \
     } while(false)
-
-#endif /* CHULA_MEM_MGR_H */

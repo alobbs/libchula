@@ -30,8 +30,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef CHULA_H
-#define CHULA_H
+#pragma once
 
 #define CHULA_H_INSIDE
 
@@ -53,5 +52,3 @@
 #include <libchula/chula-ret.h>
 
 #undef CHULA_H_INSIDE
-
-#endif /* CHULA_H */

@@ -30,8 +30,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef CHULA_SHA1
-#define CHULA_SHA1
+#pragma once
 
 #if !defined(CHULA_H_INSIDE) && !defined (CHULA_COMPILATION)
 # error "Only <libchula/libchula.h> can be included directly."
@@ -54,5 +53,3 @@ typedef struct {
 void sha_init   (SHA_INFO *sha_info);
 void sha_update (SHA_INFO *sha_info, unsigned char *buffer, int count);
 void sha_final  (SHA_INFO *sha_info, unsigned char digest[20]);
-
-#endif /* CHULA_SHA1 */

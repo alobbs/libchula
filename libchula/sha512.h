@@ -30,8 +30,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef CHULA_SHA512
-#define CHULA_SHA512
+#pragma once
 
 #if !defined(CHULA_H_INSIDE) && !defined (CHULA_COMPILATION)
 # error "Only <libchula/libchula.h> can be included directly."
@@ -53,5 +52,3 @@ typedef struct hc_sha512state SHA512_CTX;
 void SHA512_Init   (SHA512_CTX *);
 void SHA512_Update (SHA512_CTX *, const void *, size_t);
 void SHA512_Final  (SHA512_CTX *, void *);
-
-#endif /* CHULA_SHA512 */

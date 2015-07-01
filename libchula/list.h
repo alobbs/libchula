@@ -30,8 +30,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef CHULA_LIST_H
-#define CHULA_LIST_H
+#pragma once
 
 #if !defined(CHULA_H_INSIDE) && !defined (CHULA_COMPILATION)
 # error "Only <libchula/libchula.h> can be included directly."
@@ -145,5 +144,3 @@ ret_t chula_list_content_add_tail         (chula_list_t *head, void *item);
 ret_t chula_list_content_free             (chula_list_t *head, chula_list_free_func free_func);
 ret_t chula_list_content_free_item        (chula_list_t *head, chula_list_free_func free_func);
 ret_t chula_list_content_free_item_simple (chula_list_t *head);
-
-#endif /* CHULA_LIST_H */

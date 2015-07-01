@@ -30,8 +30,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef CHULA_CSTRINGS_H
-#define CHULA_CSTRINGS_H
+#pragma once
 
 #if !defined(CHULA_H_INSIDE) && !defined (CHULA_COMPILATION)
 # error "Only <libchula/libchula.h> can be included directly."
@@ -50,5 +49,3 @@ char   *chula_strchrnul    (const char *s, int c);
 /* Macros */
 #define chula_strncasestrn_s(s,s_len,lit) chula_strncasestrn(s, s_len, lit, sizeof(lit)-1)
 #define chula_strcasestrn_s(s,lit)        chula_strncasestrn(s, lit, sizeof(lit)-1)
-
-#endif /* CHULA_CSTRINGS_H */

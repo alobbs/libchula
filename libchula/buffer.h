@@ -30,8 +30,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef CHULA_BUFFER_H
-#define CHULA_BUFFER_H
+#pragma once
 
 #if !defined(CHULA_H_INSIDE) && !defined (CHULA_COMPILATION)
 # error "Only <libchula/libchula.h> can be included directly."
@@ -155,5 +154,3 @@ ret_t chula_buffer_split_lines          (chula_buffer_t  *buf, int columns, cons
 
 ret_t chula_buffer_print_cstr           (chula_buffer_t  *buf);
 void  chula_buffer_repr                 (chula_buffer_t  *buf, chula_buffer_t *output);
-
-#endif /* CHULA_BUFFER_H */

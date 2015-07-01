@@ -30,8 +30,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef CHULA_COMMON_INTERNAL_H
-#define CHULA_COMMON_INTERNAL_H
+#pragma once
 
 #include <config.h>
 #include <stdlib.h>
@@ -160,5 +159,3 @@
 #else
 # define CHULA_THREAD_YIELD
 #endif
-
-#endif /* CHULA_COMMON_INTERNAL_H */
